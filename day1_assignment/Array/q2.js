@@ -113,7 +113,7 @@ console.log(
 
 console.log(
   "Find Method \n",
-  duplicateData.find((data) => (data.id = 1))
+  duplicateData.find((data) => data.id === 1)
 );
 
 console.log(

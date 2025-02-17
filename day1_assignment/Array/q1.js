@@ -189,7 +189,7 @@ console.log(sortByDOB());
 //
 
 const getById = (user_id) => {
-  return data.filter((item) => item.id == user_id);
+  return data.filter((item) => item.id === user_id);
 };
 
 console.log("getUser By Id : \n", getById(1));
